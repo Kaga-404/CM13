@@ -89,7 +89,7 @@
 	/// Was this projectile affected by a damage_boost trait?
 	var/damage_boosted = 0
 	/// If this projectile was affected by a damage_boost trait, what was the last modifier?
-	 var/last_damage_mult = 1
+	var/last_damage_mult = 1
 
 /obj/projectile/Initialize(mapload, datum/cause_data/cause_data)
 	. = ..()
